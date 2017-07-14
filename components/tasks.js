@@ -1,7 +1,8 @@
 import React from 'react';
+import Task from './task';
 
 export default class Tasks extends React.Component {
   render(){
-    return <span>Hello World 1.2</span>;
+    return <Task>This is new task!</Task>;
   }
 }
