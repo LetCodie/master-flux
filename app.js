@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   // res.send('Hello World!');
   res.render('blanks', {
     title: 'Mastering Flux',
-    body: 'Hello World 1.2.3'
+    body: '<div id="root"></div>'
   });
 });
 

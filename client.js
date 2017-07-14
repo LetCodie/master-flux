@@ -1,3 +1,4 @@
 import React from 'react';
+import ReactDom from 'react-dom';
 
-console.log("Hello Everyone!");
+ReactDom.render(<div>Learning New thing!</div>, document.getElementById('root'));
